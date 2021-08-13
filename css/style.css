@@ -84,3 +84,59 @@ body {
 .type_list {
     animation: rotate 7s infinite;
 }
+.button {
+    text-align: center;
+    padding-bottom: 5%;
+}
+.button button {
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #7F47DD;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.button button:hover {
+    text-decoration: underline;
+}
+
+.result_data {
+    display: flex;
+    justify-content: center;
+}
+.result_data .data_wrap {
+    width: 270px;
+    padding: 15px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+.result_data h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2% 0 3% ;
+}
+.result_data li {
+    font-size: 15px;
+    padding-bottom: 5%;
+}
+.wink {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.wink a {
+    width: 100px;
+}
+.wink img {
+    width: 100%;
+    height: auto;
+}
